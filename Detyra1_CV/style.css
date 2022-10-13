@@ -1,0 +1,62 @@
+body {
+    background-color: burlywood;
+}
+img {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 0px 30px 20px 0px;
+
+}
+fieldset {
+    background-color: beige;
+    margin: 20px;
+    padding: 15px;
+}
+h2 {
+    margin-top: 20px;
+}
+.linku {
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: beige;
+    padding: 10px;
+}
+.button {
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 5px;
+    background-color: rgb(194, 191, 191);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.button:hover {
+    background-color: grey;
+}
+strong {
+    color:darkcyan;
+}
+strong::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.field {
+    margin-bottom: 0px;
+}
+.field2 {
+    margin-top: 0px;
+}
+ul li:hover {
+    color: brown;
+}
+
+label {
+    font-weight: bolder;
+}
